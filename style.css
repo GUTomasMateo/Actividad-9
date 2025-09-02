@@ -1,0 +1,132 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #0a0a0a;
+    line-height: 1.6;
+}
+
+/* Header */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 0.9rem;
+}
+.title {
+    text-align: center;
+    padding: 15px 0;
+}
+.title h1 {
+    font-size: 3rem;
+}
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #045ca989;
+}
+.main-nav ul li {
+    margin: 0 15px;
+}
+.main-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/* Featured Section */
+.featured {
+    margin: 20px;
+}
+.mini-articles {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.mini-articles article {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    text-align: left;
+}
+.mini-articles img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.main-article {
+    text-align: center;
+}
+.main img {
+    width: 1000px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+.recent-posts {
+    flex: 2;
+}
+.recent-posts article {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.recent-posts img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+.sidebar {
+    flex: 1;
+}
+.sidebar h3 {
+    margin-bottom: 10px;
+    border-bottom: 4px solid #004aa3;
+}
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.tags span {
+    display: inline-block;
+    background: #2c74e871;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid #0043a7;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.footer-widgets {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.footer-widgets h4 {
+    margin-bottom: 10px;
+}
+.footer-widgets ul {
+    list-style: none;
+}
